@@ -52,6 +52,7 @@ print("Split my string on letter i : ")
 print (my_str_kim.split('i'))
 print("Split my string on letter s : ")
 print (my_str_kim.split('s'))
+
 # String interpolation : Inject a variable into a string
 my_variable1 = 'Jinnah'
 print ('The first PM of Pakistan was ' + my_variable1)
@@ -67,6 +68,7 @@ print ("Bring precision in result with value which is r colon width for the whit
 print (f"Using FStrings , the name is :  {my_str_kim} and integer age in same print stat is : {age}.")
 print (f"Using FStrings concatenated str + float in print , the float number result is  : {result}")
 print (f"Using FStrings, concat lists returned by split & string in print stat , the name is  : {my_str_kim.split('s')}")
+print (f"Using FStrings , the length  of my name is :  {len(my_str_kim)} and type of my name is : {type(my_str_kim)}.")
 
 #COMPLETE STRING EXERCISE
 
