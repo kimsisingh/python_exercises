@@ -1,8 +1,4 @@
 print('hello world')
-my_variable1 = 'Jinnah'
-print ('The first PM of Pakistan was ' + my_variable1)
-print('My name is {j} and my age is {a}'.format(j='John',a='75'))
-print('Using Indexing we have the first item as {0} and second as {1}'.format('Toilet Paper', 'Plunger'))
 print(2+2) #Addition
 print('2' + '3') #String Concatenation
 print(7/4) # Division
@@ -37,7 +33,42 @@ print("String slicing by grabbing the string from My_num till the end: " + my_nu
 print("String slicing by grabbing the string from beginning till well: " + my_num[:4])
 print("Step or jump by 2: " + my_num[:: 2])
 print ("Reverse the entire string " +my_num[::-1])
-#print(" Whats the type of my_num ")
+# Strings in Python are immutable; does not support Item assignment
+name = "Sam"
+#Change Sam to Pam; cannot do name[0] = 'P' as strings are immuable in Python
+print("what's my name here: " + name)
+last_letters = name[1:]
+new_name = "P" + last_letters
+print("Whats's my new name: " + new_name)
+print("Upper case of my string : " + my_str_kim.upper())
+print("Lower case of my string : " + my_str_kim.lower())
+print("Split on the White space, by default") # cannot print in the same line
+# as split function returns data type 'list' and it cannot concatenate with string
+print(my_str_kim.split())
+#Split on the S, by default
+#print("Split my string on letter s : " + my_str_kim.split('i'))
+# The above line won't work for the same reason : str not supported with list
+print("Split my string on letter i : ")
+print (my_str_kim.split('i'))
+print("Split my string on letter s : ")
+print (my_str_kim.split('s'))
+# String interpolation : Inject a variable into a string
+my_variable1 = 'Jinnah'
+print ('The first PM of Pakistan was ' + my_variable1)
+print('Using format method assigning variables, My name is {j} and my age is {a}'.format(j='John',a='75'))
+print('Usinf format method indexing by default, Hey! {} {} {} {} {}? '.format("What's", "in", "the", "dinner", "tonight"))
+print('Using Indexing we have the first item as {0} and second as {1}'.format('Toilet Paper', 'Plunger'))
+#Floating number precision
+result = 100/777
+age = 30
+print ("Float Formating, The result is {r} ".format(r=result)) # Yay! concatenated str + float
+print ("Bring precision in result with value which is r colon width for the white space and precision 4 places as in 4f {r:5.4f} ".format(r=result))
+#Using fstrings in python 3.6
+print (f"Using FStrings , the name is :  {my_str_kim} and integer age in same print stat is : {age}.")
+print (f"Using FStrings concatenated str + float in print , the float number result is  : {result}")
+print (f"Using FStrings, concat lists returned by split & string in print stat , the name is  : {my_str_kim.split('s')}")
+
+#COMPLETE STRING EXERCISE
 
 
 
