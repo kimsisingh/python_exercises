@@ -30,7 +30,7 @@ print(f" All Keys' : {alpha_dict.keys()}")
 # See all Values of the dictionary
 print(f" All Values' : {alpha_dict.values()}")
 # See Actual pairings key value pair
-print(f" All pairings : ' : {alpha_dict.items()}")
+print(f" All Pairings : ' : {alpha_dict.items()}")
 
 
 

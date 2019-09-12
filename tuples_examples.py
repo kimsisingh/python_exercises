@@ -8,7 +8,7 @@
 #objects/elements in a program, tuple becomes a great solution.
 
 
-my_tuple = (1,2,3,4,2,5,6,7,8,2,2,2,2,9,0, "KIM")
+my_tuple = (1,2,3,4,2,5,6,'KIM',7,8,2,2,2,2,9,0, 'KIM')
 my_list = [1,2,3,4,5, 0.2, "HELLO"]
 print(f"Type of my_tuple : {type(my_tuple)} and length {len(my_tuple)}")
 print(f"Type of my_list : {type(my_list)} and length {len(my_list)}")
