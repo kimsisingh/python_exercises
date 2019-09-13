@@ -19,6 +19,7 @@ print(f"My set right now : {my_set}")
 my_list =[1,2,2,2,2,1,1,1,'KIM', 'SINGH', 34.5, 6.5, 1,3,3,3,3,4,4,45,55,5,8,7,7,7,88,8,88,9,9,9,99,0,00,100] 
 # Grab a unique value from this list
 print(f"Grab a unique value from this list using sets : {set(my_list)}")
+print(f"Grab a unique value from this list using sets : {set([1,1,2,3])}")
 
 
 
